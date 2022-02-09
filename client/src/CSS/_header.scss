@@ -1,0 +1,36 @@
+header{
+    background-color: #130f40;
+    .header-container{
+        width: 80%;
+        color: white;
+        margin: 0 auto;
+        height: 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .logo{
+            display: flex;
+            align-items: center;
+            img{
+                width: 35px;
+            }
+            h3{
+                font-size: 22px;
+                font-weight: 600;
+                margin-left: 6px;
+            }
+        }
+        ul{
+            list-style-type: none;
+            li{
+                display: inline-block;
+                a{
+                    color: white;
+                    padding: 5px 15px;
+                    // border: 1px solid red;
+                    margin: 0 4px;
+                }
+            }
+        }
+    }
+}
